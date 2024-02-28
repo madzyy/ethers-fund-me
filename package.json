@@ -1,0 +1,16 @@
+{
+  "name": "ethers-simple-storage",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . FundMe.sol"
+  },
+  "author": "tapiwa madzanise <tmadz8779@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.0.8",
+    "solc": "^0.8.19",
+    "@chainlink/contracts": "^0.8.0"
+  }
+}
