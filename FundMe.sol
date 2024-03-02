@@ -68,7 +68,7 @@ contract FundMe{
         fund();
     }
 
-    callback() external payable{
+    fallback() external payable{
         fund();
     }
 }
